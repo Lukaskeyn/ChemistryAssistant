@@ -16,7 +16,8 @@
     </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
-        <item>@font/audiowide</item>
+        <item>@font/graduate</item>
+        <item>@font/new_rocker</item>
     </array>
     <color name="ButtonNormalMode">#26A69A</color>
     <color name="black">#FF000000</color>

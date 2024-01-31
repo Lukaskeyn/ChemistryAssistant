@@ -10,28 +10,84 @@
         android:id="@+id/SelectModeTextView"
         android:layout_width="191dp"
         android:layout_height="59dp"
+        android:layout_marginTop="480dp"
         android:background="@color/start_page_back"
         android:fontFamily="@font/amita"
         android:text="@string/select_mode_text"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
         tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButtonNormalMode"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:background="@drawable/ring"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/cloud_right" />
+
+    <ImageView
+        android:id="@+id/imageButtonChemistryMode"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:background="@color/ButtonNormalMode"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
+        app:srcCompat="@drawable/cloud_left" />
+
+    <TextView
+        android:id="@+id/textViewNormalMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/new_rocker"
+        android:rotation="-25"
+        android:text="@string/normal_mode_button"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonNormalMode"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonNormalMode"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonNormalMode"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonNormalMode"
+        app:layout_constraintVertical_bias="0.39999998" />
+
+    <TextView
+        android:id="@+id/textViewChemistryMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/new_rocker"
+        android:rotation="25"
+        android:text="@string/chemistry_mode_button"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonChemistryMode"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonChemistryMode"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonChemistryMode"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonChemistryMode"
+        app:layout_constraintVertical_bias="0.32999998" />
 
     <ImageView
         android:id="@+id/cursor1"
         android:layout_width="106dp"
         android:layout_height="59dp"
-        android:layout_marginEnd="180dp"
+        android:layout_marginStart="50dp"
         android:contentDescription="@string/app_name"
         android:rotation="33"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonNormalMode"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SelectModeTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
         app:srcCompat="@drawable/cursor" />
@@ -40,96 +96,25 @@
         android:id="@+id/cursor2"
         android:layout_width="106dp"
         android:layout_height="59dp"
-        android:layout_marginStart="180dp"
+        android:layout_marginEnd="50dp"
         android:contentDescription="@string/app_name"
         android:rotation="-33"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonChemistryMode"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SelectModeTextView"
         app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
         app:srcCompat="@drawable/cursor" />
 
-
     <ImageView
-        android:id="@+id/imageButtonNormalMode"
+        android:id="@+id/imageLogo"
         android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_gravity="center_vertical"
-        android:layout_margin="10dp"
-        android:clickable="true"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/app_name"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
-        app:srcCompat="@drawable/cloud_right" />
-
-    <TextView
-        android:id="@+id/textViewNormalMode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/audiowide"
-        android:rotation="-25"
-        android:text="@string/normal_mode_button"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButtonNormalMode"
-        app:layout_constraintEnd_toEndOf="@+id/imageButtonNormalMode"
-        app:layout_constraintStart_toStartOf="@+id/imageButtonNormalMode"
-        app:layout_constraintTop_toTopOf="@+id/imageButtonNormalMode" />
-
-
-    <ImageView
-        android:id="@+id/imageButtonChemistryMode"
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_margin="10dp"
-        android:clickable="true"
-        android:contentDescription="@string/app_name"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SelectModeTextView"
-        app:srcCompat="@drawable/cloud_left" />
-
-
-    <TextView
-        android:id="@+id/textViewChemistryMode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/audiowide"
-        android:rotation="25"
-        android:text="@string/chemistry_mode_button"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButtonChemistryMode"
-        app:layout_constraintEnd_toEndOf="@+id/imageButtonChemistryMode"
-        app:layout_constraintStart_toStartOf="@+id/imageButtonChemistryMode"
-        app:layout_constraintTop_toTopOf="@+id/imageButtonChemistryMode" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:background="@color/start_page_back"
         app:layout_constraintBottom_toTopOf="@+id/SelectModeTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintVertical_bias="0.7"
         app:srcCompat="@drawable/logo" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginTop="40dp"
-        android:rotation="1"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/roundflask" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

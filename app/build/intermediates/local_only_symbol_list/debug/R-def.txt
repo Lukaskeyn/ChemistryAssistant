@@ -16,11 +16,11 @@ drawable cursor
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
-drawable measuringflask
-drawable newunknown
+drawable ring
 drawable roundflask
 font amita
-font audiowide
+font graduate
+font new_rocker
 id BackPageNButton
 id Calculator_title
 id ResultView
@@ -48,8 +48,7 @@ id cursor1
 id cursor2
 id imageButtonChemistryMode
 id imageButtonNormalMode
-id imageView
-id imageView2
+id imageLogo
 id textViewChemistryMode
 id textViewNormalMode
 layout chemistry_mode_page
