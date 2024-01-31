@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_cloud_left.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\cloud_left.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_graduate.ttf.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\graduate.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_cursor.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_amita.ttf.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\amita.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_amita.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\amita.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_lily_script_one.ttf.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\lily_script_one.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\layout_start_page.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\layout\\start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_macondo.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\macondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_barriecito.ttf.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\barriecito.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_holtwood_one_sc.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\holtwood_one_sc.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\layout_normal_mode_page.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\layout\\normal_mode_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_cloud_right.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\cloud_right.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_measuringflask.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\measuringflask.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_newunknown.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\newunknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_roundflask.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\roundflask.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_audiowide.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\audiowide.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\layout_chemistry_mode_page.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\layout\\chemistry_mode_page.xml"
+    },
+    {
+        "merged": "com.example.chemistryassistant.app-merged_res-28:/layout_start_page.xml.flat",
+        "source": "com.example.chemistryassistant.app-main-30:/layout/start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\font_merriweather_italic.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\font\\merriweather_italic.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-merged_res-28:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.0\\com.example.chemistryassistant.app-main-30:\\drawable\\logo.png"
+    }
+]
