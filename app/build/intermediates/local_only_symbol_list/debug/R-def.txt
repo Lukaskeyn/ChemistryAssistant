@@ -28,6 +28,7 @@ drawable purple
 drawable ring
 drawable roundflask
 font amita
+font bigshot_one
 font lovers_quarrel
 font new_rocker
 id BackPageNButton
@@ -65,7 +66,9 @@ id line2
 id line3
 id line4
 id line5
+id operationsView
 id pinkPuddle
+id textView2
 id textViewChemistryMode
 id textViewNormalMode
 layout chemistry_mode_page
@@ -75,7 +78,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string action_settings
 string app_name
-string autor
+string author
 string back_on_the_previous_page
 string backspace
 string chemistry_mode_button
@@ -100,6 +103,7 @@ string number_9
 string periodic_table_button
 string plus
 string pos_neg
+string prevNumber
 string result_hint
 string select_mode_text
 string solubility_table_button

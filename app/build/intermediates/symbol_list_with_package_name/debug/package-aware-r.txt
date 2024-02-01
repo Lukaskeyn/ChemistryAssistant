@@ -2525,6 +2525,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font amita
+font bigshot_one
 font lovers_quarrel
 font new_rocker
 id ALT
@@ -2870,6 +2871,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id operationsView
 id outline
 id outward
 id overshoot
@@ -2986,6 +2988,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
 id textViewChemistryMode
 id textViewNormalMode
 id text_input_end_icon
@@ -3245,7 +3248,7 @@ string action_settings
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
-string autor
+string author
 string back_on_the_previous_page
 string backspace
 string bottom_sheet_behavior
@@ -3370,6 +3373,7 @@ string path_password_strike_through
 string periodic_table_button
 string plus
 string pos_neg
+string prevNumber
 string result_hint
 string search_menu_title
 string select_mode_text

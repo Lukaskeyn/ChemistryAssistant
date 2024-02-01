@@ -16,6 +16,7 @@
     </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
+        <item>@font/bigshot_one</item>
         <item>@font/lovers_quarrel</item>
         <item>@font/new_rocker</item>
     </array>
@@ -29,9 +30,9 @@
     <color name="yellow_extraLight">#F7FDDD</color>
     <string name="action_settings">Settings</string>
     <string name="app_name">ChemistryAssistant</string>
-    <string name="autor">developed by Lukaskeyn</string>
-    <string name="back_on_the_previous_page">Назад</string>
-    <string name="backspace">Delete</string>
+    <string name="author">developed by Lukaskeyn</string>
+    <string name="back_on_the_previous_page">Back</string>
+    <string name="backspace">Del</string>
     <string name="chemistry_mode_button">Chemistry</string>
     <string name="clear">С</string>
     <string name="decimal">,</string>
@@ -54,6 +55,7 @@
     <string name="periodic_table_button">Periodic table</string>
     <string name="plus">+</string>
     <string name="pos_neg">+/-</string>
+    <string name="prevNumber">Number</string>
     <string name="result_hint">Result</string>
     <string name="select_mode_text">Select mode</string>
     <string name="solubility_table_button">Solubility table</string>

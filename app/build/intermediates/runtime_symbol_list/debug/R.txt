@@ -2524,6 +2524,7 @@ int drawable test_level_drawable 0x7f0800a4
 int drawable tooltip_frame_dark 0x7f0800a5
 int drawable tooltip_frame_light 0x7f0800a6
 int font amita 0x7f090001
+int font bigshot_one 0x7f09000b
 int font lovers_quarrel 0x7f090007
 int font new_rocker 0x7f09000a
 int id ALT 0x7f0a0000
@@ -2869,6 +2870,7 @@ int id notification_main_column_container 0x7f0a014f
 int id off 0x7f0a0150
 int id on 0x7f0a0151
 int id onInterceptTouchReturnSwipe 0x7f0a0152
+int id operationsView 0x7f0a01fe
 int id outline 0x7f0a0153
 int id outward 0x7f0a0154
 int id overshoot 0x7f0a0155
@@ -2985,6 +2987,7 @@ int id textSpacerNoButtons 0x7f0a01c3
 int id textSpacerNoTitle 0x7f0a01c4
 int id textStart 0x7f0a01c5
 int id textTop 0x7f0a01c6
+int id textView2 0x7f0a01ff
 int id textViewChemistryMode 0x7f0a01c7
 int id textViewNormalMode 0x7f0a01c8
 int id text_input_end_icon 0x7f0a01c9
@@ -3244,7 +3247,7 @@ int string action_settings 0x7f10001b
 int string androidx_startup 0x7f10001c
 int string app_name 0x7f10001d
 int string appbar_scrolling_view_behavior 0x7f10001e
-int string autor 0x7f10001f
+int string author 0x7f1000a1
 int string back_on_the_previous_page 0x7f100020
 int string backspace 0x7f100021
 int string bottom_sheet_behavior 0x7f100022
@@ -3369,6 +3372,7 @@ int string path_password_strike_through 0x7f100097
 int string periodic_table_button 0x7f100098
 int string plus 0x7f100099
 int string pos_neg 0x7f10009a
+int string prevNumber 0x7f1000a3
 int string result_hint 0x7f10009b
 int string search_menu_title 0x7f10009c
 int string select_mode_text 0x7f10009d

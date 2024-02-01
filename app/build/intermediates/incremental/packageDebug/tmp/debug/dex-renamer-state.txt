@@ -1,4 +1,4 @@
-#Thu Feb 01 15:30:13 MSK 2024
+#Thu Feb 01 23:26:28 MSK 2024
 base.0=C\:\\Users\\lukke\\AndroidStudioProjects\\ChemistryAssistant\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\lukke\\AndroidStudioProjects\\ChemistryAssistant\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\lukke\\AndroidStudioProjects\\ChemistryAssistant\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
