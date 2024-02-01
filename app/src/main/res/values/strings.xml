@@ -25,6 +25,8 @@
     <string name="backspace">Delete</string>
     <string name="clear">С</string>
     <string name="decimal">,</string>
+    <string name="equal">=</string>
     <string name="pos_neg">+/-</string>
     <string name="back_on_the_previous_page">Назад</string>
+    <string name="autor">developed by Lukaskeyn</string>
 </resources>

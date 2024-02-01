@@ -26,7 +26,7 @@
         android:id="@+id/imageButtonNormalMode"
         android:layout_width="160dp"
         android:layout_height="120dp"
-        android:background="@color/pink_light"
+        android:background="@color/extra_Light"
         android:clickable="true"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
@@ -39,7 +39,7 @@
         android:id="@+id/imageButtonChemistryMode"
         android:layout_width="160dp"
         android:layout_height="120dp"
-        android:background="@color/pink_light"
+        android:background="@color/extra_Light"
         android:clickable="true"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
@@ -115,5 +115,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7"
         app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/pinkPuddle"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
+        app:srcCompat="@drawable/extralight2" />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lovers_quarrel"
+        android:text="@string/autor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pinkPuddle"
+        app:layout_constraintEnd_toEndOf="@+id/pinkPuddle"
+        app:layout_constraintStart_toStartOf="@+id/pinkPuddle"
+        app:layout_constraintTop_toTopOf="@+id/pinkPuddle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

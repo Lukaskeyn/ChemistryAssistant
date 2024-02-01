@@ -1274,6 +1274,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color extra_Light
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
@@ -1776,6 +1777,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow_extraLight
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2440,6 +2442,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bluelight
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2456,6 +2459,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ethyl
+drawable extralight
+drawable extralight2
+drawable greenlight
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2509,6 +2516,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pink
+drawable purple
 drawable ring
 drawable roundflask
 drawable test_custom_background
@@ -2516,14 +2525,13 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font amita
-font graduate
+font lovers_quarrel
 font new_rocker
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id BackPageNButton
 id CTRL
-id Calculator_title
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2609,6 +2617,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id autor
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2634,6 +2643,7 @@ id buttonBackspace
 id buttonClear
 id buttonDecimal
 id buttonDivide
+id buttonEqual
 id buttonMinus
 id buttonMultiply
 id buttonPanel
@@ -2760,6 +2770,7 @@ id image
 id imageButtonChemistryMode
 id imageButtonNormalMode
 id imageLogo
+id imageView
 id immediateStop
 id included
 id info
@@ -2775,7 +2786,10 @@ id left
 id leftToRight
 id legacy
 id line1
+id line2
 id line3
+id line4
+id line5
 id linear
 id listMode
 id list_item
@@ -2871,6 +2885,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pinkPuddle
 id position
 id postLayout
 id progress_circular
@@ -3230,6 +3245,7 @@ string action_settings
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string autor
 string back_on_the_previous_page
 string backspace
 string bottom_sheet_behavior
@@ -3243,6 +3259,7 @@ string clear
 string clear_text_end_icon_content_description
 string decimal
 string divide
+string equal
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

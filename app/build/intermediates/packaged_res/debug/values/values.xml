@@ -16,23 +16,27 @@
     </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
-        <item>@font/graduate</item>
+        <item>@font/lovers_quarrel</item>
         <item>@font/new_rocker</item>
     </array>
     <color name="ButtonNormalMode">#26A69A</color>
     <color name="black">#FF000000</color>
+    <color name="extra_Light">#8CC8D8</color>
     <color name="pink_light">#DAA8A8</color>
     <color name="select_mode_back">#DEECEB</color>
     <color name="start_page_back">#92EAD8</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow_extraLight">#F7FDDD</color>
     <string name="action_settings">Settings</string>
     <string name="app_name">ChemistryAssistant</string>
+    <string name="autor">developed by Lukaskeyn</string>
     <string name="back_on_the_previous_page">Назад</string>
     <string name="backspace">Delete</string>
     <string name="chemistry_mode_button">Chemistry</string>
     <string name="clear">С</string>
     <string name="decimal">,</string>
     <string name="divide">/</string>
+    <string name="equal">=</string>
     <string name="history_button">History</string>
     <string name="minus">-</string>
     <string name="multiply">*</string>

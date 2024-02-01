@@ -2,7 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
-        <item>@font/graduate</item>
+        <item>@font/lovers_quarrel</item>
         <item>@font/new_rocker</item>
     </array>
 </resources>
