@@ -2443,6 +2443,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bluelight
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2687,6 +2688,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id current
 id currentState
 id cursor1
 id cursor2
@@ -3217,6 +3219,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string CurrentNumber
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

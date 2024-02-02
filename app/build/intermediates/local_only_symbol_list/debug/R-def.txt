@@ -13,6 +13,7 @@ color start_page_back
 color white
 color yellow_extraLight
 drawable bluelight
+drawable border
 drawable cloud_left
 drawable cloud_right
 drawable cursor
@@ -55,6 +56,7 @@ id buttonMultiply
 id buttonPlus
 id buttonPosNeg
 id chemModeBackButton
+id current
 id cursor1
 id cursor2
 id imageButtonChemistryMode
@@ -76,6 +78,7 @@ layout normal_mode_page
 layout start_page
 mipmap ic_launcher
 mipmap ic_launcher_round
+string CurrentNumber
 string action_settings
 string app_name
 string author

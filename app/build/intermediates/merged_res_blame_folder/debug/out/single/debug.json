@@ -100,6 +100,10 @@
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\drawable\\ethyl.png"
     },
     {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\drawable\\border.xml"
+    },
+    {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\font_holtwood_one_sc.xml.flat",
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\font\\holtwood_one_sc.xml"
     },

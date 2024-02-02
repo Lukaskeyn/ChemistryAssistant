@@ -11,14 +11,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class NormalMode extends AppCompatActivity {
+    private  TextView currentValue;
     private TextView resultTextView;
     private TextView operations;
     private TextView latestNumber;
-    private Button backOnPreviousPage;
+    private boolean isNewNumber;
     boolean mathFlag = false;
     boolean equalPush = false;
-
-    private int result = 0;
+    private double inputDouble;
 
 
     @Override
@@ -26,11 +26,12 @@ public class NormalMode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.normal_mode_page);
 
+       currentValue =   findViewById(R.id.current);
         resultTextView = findViewById(R.id.ResultView);
         operations = findViewById(R.id.operationsView);
         latestNumber = findViewById(R.id.textView2);
 
-        backOnPreviousPage = findViewById(R.id.BackPageNButton);
+     Button  backOnPreviousPage = findViewById(R.id.BackPageNButton);
         backOnPreviousPage.setOnClickListener(v -> {
             Intent switchOnMainPage = new Intent(this, MainActivity.class);
             startActivity(switchOnMainPage);
@@ -38,16 +39,13 @@ public class NormalMode extends AppCompatActivity {
     }
     public void clickNumber(View view) {
         String number;
-        if (equalPush) {
-            resultTextView.setText("");
-            equalPush = false;
+        if (isNewNumber) {
+            currentValue.setText("");
+            isNewNumber = false;
         }
-        if (mathFlag) {
-            resultTextView.setText("");
-            mathFlag = false;
-        }
-            if (!mathFlag && !equalPush) {
-                number = resultTextView.getText().toString();
+        number = currentValue.getText().toString();
+
+
                 if (view.getId() == R.id.button0)
                     number = number + "0";
                 else if (view.getId() == R.id.button1)
@@ -68,70 +66,106 @@ public class NormalMode extends AppCompatActivity {
                     number = number + "8";
                 else if (view.getId() == R.id.button9)
                     number = number + "9";
+                else if (view.getId() == R.id.buttonDecimal)
+                    if (!dotIsPresent(number)) {
+                        number = number + ".";
+                        if(currentValue.getText().toString().length() == 0) {
+                            number = "0" + number;
+                        }
+
+                    }
 
 
-                resultTextView.setText(number);
-            }
+                  int value = Integer.parseInt(number);
+                  number = String.valueOf(value);
+
+
+                currentValue.setText(number);
+
+
+
+
         }
 
+        public void changeStatus(View view){
+          if(currentValue.getText().length() > 0) {
+              currentValue.setText(String.valueOf(Double.parseDouble(currentValue.getText().toString()) * -1));
+          }
+        }
 
   public void mathematics(View view) {
-      if (resultTextView.getText().length() > 0) {
-          mathFlag = true;
+        isNewNumber = true;
+      latestNumber.setText(currentValue.getText());
+      if (currentValue.getText().length() > 0) {
+
           if (view.getId() == R.id.buttonPlus) {
               operations.setText("+");
-              latestNumber.setText(resultTextView.getText());
-              result = Integer.parseInt(latestNumber.getText().toString());
           }
           else if (view.getId() == R.id.buttonMinus) {
               operations.setText("-");
-              latestNumber.setText(resultTextView.getText());
-              result = Integer.parseInt(latestNumber.getText().toString());
           }
           else if (view.getId() == R.id.buttonMultiply) {
               operations.setText("*");
-              latestNumber.setText(resultTextView.getText());
-              result = Integer.parseInt(latestNumber.getText().toString()) ;
           }
           else if (view.getId() == R.id.buttonDivide) {
               operations.setText("/");
-              latestNumber.setText(resultTextView.getText());
-              result = Integer.parseInt(latestNumber.getText().toString()) ;
           }
-
       }
   }
   public void showResult(View view) {
+        double result = 0.0;
+      isNewNumber = true;
+        String currentNumber = currentValue.getText().toString();
+        String prevNumber = latestNumber.getText().toString();
         if(view.getId() == R.id.buttonEqual){
             if(operations.getText() == "+") {
-                result = Integer.parseInt(resultTextView.getText().toString()) + result;
+                result = Double.parseDouble(currentNumber) + Double.parseDouble(prevNumber);
+                result = Math.ceil(result * 10000.0)/ 10000.0;
+                resultTextView.setText(String.valueOf(result));
             }
             else if (operations.getText() == "-") {
-                    result =   result - Integer.parseInt(resultTextView.getText().toString());
+                    result =   Double.parseDouble(prevNumber) - Double.parseDouble(currentNumber);
+                result = Math.ceil(result * 10000.0)/ 10000.0;
+                resultTextView.setText(String.valueOf(result));
              }
             else if (operations.getText() == "*") {
-                result =   result * Integer.parseInt(resultTextView.getText().toString());
+                result =   Double.parseDouble(currentNumber) * Double.parseDouble(prevNumber);
+                result = Math.ceil(result * 10000.0)/ 10000.0;
+                resultTextView.setText(String.valueOf(result));
             }
             else if (operations.getText() == "/") {
-                if(Integer.parseInt(resultTextView.getText().toString()) != 0) {
-                    result = result / Integer.parseInt(resultTextView.getText().toString());
+                if(Double.parseDouble(currentNumber) != 0) {
+                    result = Double.parseDouble(prevNumber) / Double.parseDouble(currentNumber);
+                    result = Math.ceil(result * 10000.0)/ 10000.0;
+                    resultTextView.setText(String.valueOf(result));
                 }
                 else resultTextView.setText("Деление на ноль невозможно");
             }
 
-
-                resultTextView.setText(String.valueOf(result));
-                latestNumber.setText(resultTextView.getText());
-                result = 0;
-                equalPush = true;
             }
 
 
   }
   public void clear(View view){
-        resultTextView.setText("");
+        currentValue.setText("0");
         operations.setText("");
-        latestNumber.setText("");
+        latestNumber.setText("0");
+        resultTextView.setText("0");
   }
-
+  public boolean dotIsPresent(String number) {
+      return number.contains(".");
+  }
+  public boolean nullIsFirstNumber(String number) {
+        if( number.length() >= 2 && number.charAt(0) == '0' ) {
+            return true;
+        }
+        return false;
+  }
+  public void delete(View view) {
+        if(currentValue.getText().toString().length() >= 1) {
+            String number = currentValue.getText().toString();
+            String lastChar = number.substring(0, number.length() - 1);
+            currentValue.setText(lastChar);
+        }
+  }
 }

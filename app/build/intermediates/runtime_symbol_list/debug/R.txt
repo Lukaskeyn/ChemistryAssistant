@@ -2442,6 +2442,7 @@ int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
 int drawable bluelight 0x7f080058
+int drawable border 0x7f0800aa
 int drawable btn_checkbox_checked_mtrl 0x7f080059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f08005b
@@ -2686,6 +2687,7 @@ int id continuousVelocity 0x7f0a009b
 int id coordinator 0x7f0a009c
 int id cos 0x7f0a009d
 int id counterclockwise 0x7f0a009e
+int id current 0x7f0a0200
 int id currentState 0x7f0a009f
 int id cursor1 0x7f0a00a0
 int id cursor2 0x7f0a00a1
@@ -3216,6 +3218,7 @@ int layout text_view_without_line_height 0x7f0d0075
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
+int string CurrentNumber 0x7f1000a4
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
 int string abc_action_menu_overflow_description 0x7f100002

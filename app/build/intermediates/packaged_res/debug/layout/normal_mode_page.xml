@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+
+
     <LinearLayout
         android:id="@+id/line5"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="13dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line4">
 
@@ -24,8 +24,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:text="@string/clear"
-            android:onClick="clear"/>
+            android:onClick="clear"
+            android:text="@string/clear" />
 
         <Button
             android:id="@+id/buttonEqual"
@@ -34,8 +34,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:text="@string/equal"
-            android:onClick="showResult"/>
+            android:onClick="showResult"
+            android:text="@string/equal" />
 
         <Button
             android:id="@+id/buttonDivide"
@@ -44,8 +44,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:text="@string/divide"
-            android:onClick="mathematics"/>
+            android:onClick="mathematics"
+            android:text="@string/divide" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/line4"
@@ -64,6 +64,7 @@
             android:text="@string/pos_neg"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
+            android:onClick="changeStatus"
             />
 
         <Button
@@ -85,7 +86,8 @@
             android:backgroundTint="@color/extra_Light"
             android:text="@string/decimal"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:layout_marginRight="5dp"
+            android:onClick="clickNumber"/>
 
         <Button
             android:id="@+id/buttonMultiply"
@@ -256,24 +258,27 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:text="@string/backspace" />
+            android:text="@string/backspace"
+            android:onClick="delete"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/ResultView"
-        android:layout_width="180dp"
-        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="20dp"
-        android:background="@color/yellow_extraLight"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border"
         android:fontFamily="@font/bigshot_one"
+        android:gravity="center"
         android:hint="@string/result_hint"
-        android:textAlignment="gravity"
+        android:textAlignment="center"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/line5" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/operationsView"
+        tools:ignore="RtlCompat" />
 
     <Button
         android:id="@+id/BackPageNButton"
@@ -305,32 +310,50 @@
         android:id="@+id/operationsView"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="5dp"
-        android:background="@color/yellow_extraLight"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/border"
         android:fontFamily="@font/bigshot_one"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintEnd_toStartOf="@+id/current"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/line5" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="180dp"
+        android:layout_width="140dp"
         android:layout_height="80dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="10dp"
-        android:background="@color/yellow_extraLight"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border"
         android:fontFamily="@font/bigshot_one"
+        android:gravity="bottom"
         android:hint="@string/prevNumber"
-        android:textAlignment="gravity"
+        android:textAlignment="textEnd"
         android:textSize="25sp"
-        app:layout_constraintEnd_toStartOf="@+id/ResultView"
+        app:layout_constraintEnd_toStartOf="@+id/operationsView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/line5" />
+        app:layout_constraintTop_toBottomOf="@+id/line5"
+        tools:ignore="RtlCompat" />
 
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/bigshot_one"
+        android:gravity="bottom"
+        android:hint="@string/CurrentNumber"
+        android:textAlignment="textEnd"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/operationsView"
+        app:layout_constraintTop_toBottomOf="@+id/line5"
+        tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

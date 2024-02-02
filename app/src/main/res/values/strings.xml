@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ChemistryAssistant</string>
     <string name="action_settings">Settings</string>
-    <string name="normal_mode_button">Normal</string>
+    <string name="normal_mode_button">Casual</string>
     <string name="chemistry_mode_button">Chemistry</string>
     <string name="periodic_table_button">Periodic table</string>
     <string name="solubility_table_button">Solubility table</string>
@@ -29,5 +29,6 @@
     <string name="pos_neg">+/-</string>
     <string name="back_on_the_previous_page">Back</string>
     <string name="author">developed by Lukaskeyn</string>
-    <string name="prevNumber">Number</string>
+    <string name="prevNumber">Previous value</string>
+    <string name="CurrentNumber">Current value</string>
 </resources>
