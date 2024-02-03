@@ -16,9 +16,7 @@ public class NormalMode extends AppCompatActivity {
     private TextView operations;
     private TextView latestNumber;
     private boolean isNewNumber;
-    boolean mathFlag = false;
-    boolean equalPush = false;
-    private double inputDouble;
+
 
 
     @Override
@@ -69,16 +67,16 @@ public class NormalMode extends AppCompatActivity {
                 else if (view.getId() == R.id.buttonDecimal)
                     if (!dotIsPresent(number)) {
                         number = number + ".";
-                        if(currentValue.getText().toString().length() == 0) {
+                        if(number.length() <=1 ) {
                             number = "0" + number;
                         }
 
                     }
 
-
-                  int value = Integer.parseInt(number);
-                  number = String.valueOf(value);
-
+        if (!number.contains(".")) {
+            int value = Integer.parseInt(number);
+            number = String.valueOf(value);
+        }
 
                 currentValue.setText(number);
 
@@ -155,12 +153,7 @@ public class NormalMode extends AppCompatActivity {
   public boolean dotIsPresent(String number) {
       return number.contains(".");
   }
-  public boolean nullIsFirstNumber(String number) {
-        if( number.length() >= 2 && number.charAt(0) == '0' ) {
-            return true;
-        }
-        return false;
-  }
+
   public void delete(View view) {
         if(currentValue.getText().toString().length() >= 1) {
             String number = currentValue.getText().toString();

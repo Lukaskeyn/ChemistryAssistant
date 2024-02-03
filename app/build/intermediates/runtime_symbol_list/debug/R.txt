@@ -2614,11 +2614,11 @@ int id anticipate 0x7f0a0053
 int id arc 0x7f0a0054
 int id asConfigured 0x7f0a0055
 int id async 0x7f0a0056
+int id author 0x7f0a0201
 int id auto 0x7f0a0057
 int id autoComplete 0x7f0a0058
 int id autoCompleteToEnd 0x7f0a0059
 int id autoCompleteToStart 0x7f0a005a
-int id autor 0x7f0a005b
 int id barrier 0x7f0a005c
 int id baseline 0x7f0a005d
 int id beginOnFirstDraw 0x7f0a005e

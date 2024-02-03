@@ -35,7 +35,7 @@ font new_rocker
 id BackPageNButton
 id ResultView
 id SelectModeTextView
-id autor
+id author
 id button0
 id button1
 id button2
