@@ -1,6 +1,7 @@
 package com.example.chemistryassistant;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         developerPage.setOnClickListener(v ->  {
             goToDeveloperPage(developerPage);
         });
+        developerPage.setPaintFlags(developerPage.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
     }
 
     public void goToDeveloperPage(View view) {
