@@ -7,10 +7,9 @@
     android:background="@color/white">
 
 
-
     <LinearLayout
         android:id="@+id/line5"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +23,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clear"
-            android:text="@string/clear" />
+            android:text="@string/clear"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonEqual"
@@ -34,8 +35,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="showResult"
-            android:text="@string/equal" />
+            android:text="@string/equal"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonDivide"
@@ -44,12 +47,15 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="mathematics"
-            android:text="@string/divide" />
+            android:text="@string/divide"
+            android:textSize="20sp" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/line4"
-        android:layout_width="match_parent"
+        android:layout_width="380dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,49 +66,55 @@
             android:id="@+id/buttonPosNeg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/extra_Light"
-            android:text="@string/pos_neg"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="changeStatus"
-            />
+            android:text="@string/pos_neg"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_0"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-          />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonDecimal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/extra_Light"
-            android:text="@string/decimal"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:onClick="clickNumber"/>
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="clickNumber"
+            android:text="@string/decimal"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonMultiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/extra_Light"
-            android:text="@string/multiply"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:onClick="mathematics"/>
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="mathematics"
+            android:text="@string/multiply"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/line3"
-        android:layout_width="match_parent"
+        android:layout_width="380dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,48 +126,59 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_1"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_2"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_3"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonMinus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/extra_Light"
-            android:text="@string/minus"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="483dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:onClick="mathematics"/>
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="mathematics"
+            android:text="@string/minus"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="483dp" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/line2"
-        android:layout_width="match_parent"
+        android:layout_width="380dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,57 +190,68 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_4"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_5"
             android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:textSize="20sp" />
+
         <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/extra_Light"
-        android:onClick="clickNumber"
-        android:text="@string/number_6"
-        android:textColor="@color/black"
-        android:visibility="visible"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"/>
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="clickNumber"
+            android:text="@string/number_6"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/buttonPlus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/extra_Light"
-            android:text="@string/plus"
-            android:onClick="mathematics"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="659dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"/>
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="mathematics"
+            android:text="@string/plus"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="659dp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/line1"
-        android:layout_width="match_parent"
+        android:layout_width="380dp"
         android:layout_height="60dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="180dp"
+        android:layout_marginEnd="5dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
 
 
         <Button
@@ -227,9 +261,13 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_7"
-            android:textColor="@color/black" />
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
@@ -237,9 +275,12 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_8"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
@@ -247,9 +288,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
             android:onClick="clickNumber"
             android:text="@string/number_9"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonBackspace"
@@ -258,13 +301,15 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
+            android:fontFamily="@font/amita"
+            android:onClick="delete"
             android:text="@string/backspace"
-            android:onClick="delete"/>
+            android:textSize="18sp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/ResultView"
-        android:layout_width="match_parent"
+        android:layout_width="380dp"
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
@@ -285,10 +330,11 @@
     <Button
         android:id="@+id/BackPageNButton"
         style="@style/Widget.Material3.Button.ElevatedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/purple_extraLight"
         android:fontFamily="@font/new_rocker"
         android:text="@string/back_on_the_previous_page"
         android:textColor="@color/black"
@@ -299,8 +345,10 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -325,37 +373,33 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="140dp"
-        android:layout_height="80dp"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/border"
         android:fontFamily="@font/bigshot_one"
-        android:gravity="center|top"
         android:hint="@string/prevNumber"
-        android:textAlignment="center"
+        android:textAlignment="textEnd"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/operationsView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/line5"
-        tools:ignore="RtlCompat" />
+        app:layout_constraintTop_toBottomOf="@+id/line5" />
 
     <TextView
         android:id="@+id/current"
         android:layout_width="140dp"
-        android:layout_height="80dp"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/border"
         android:fontFamily="@font/bigshot_one"
-        android:gravity="center|top"
         android:hint="@string/CurrentNumber"
-        android:textAlignment="center"
+        android:textAlignment="textEnd"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/operationsView"
-        app:layout_constraintTop_toBottomOf="@+id/line5"
-        tools:ignore="RtlCompat" />
+        app:layout_constraintTop_toBottomOf="@+id/line5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

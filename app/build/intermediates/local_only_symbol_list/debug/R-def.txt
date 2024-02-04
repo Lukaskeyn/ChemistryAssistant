@@ -7,7 +7,9 @@ array preloaded_fonts
 color ButtonNormalMode
 color black
 color extra_Light
+color ic_launcher_background
 color pink_light
+color purple_extraLight
 color select_mode_back
 color start_page_back
 color white
@@ -77,6 +79,7 @@ layout chemistry_mode_page
 layout normal_mode_page
 layout start_page
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string CurrentNumber
 string action_settings
