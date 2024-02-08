@@ -93,7 +93,12 @@ public class NormalMode extends AppCompatActivity {
 
     public void changeStatus(View view) {
         if (currentValue.getText().length() > 0) {
-            currentValue.setText(String.valueOf(Double.parseDouble(currentValue.getText().toString()) * -1));
+           if(dotIsPresent(currentValue.getText().toString())) {
+               currentValue.setText(String.valueOf(Double.parseDouble(currentValue.getText().toString()) * -1));
+           }
+           else {
+               currentValue.setText(String.valueOf(Integer.parseInt(currentValue.getText().toString()) * -1));
+           }
         }
     }
 
@@ -115,7 +120,7 @@ public class NormalMode extends AppCompatActivity {
     }
 
     public void showResult(View view) {
-        double result = 0.0;
+        double result;
         isNewNumber = true;
         String currentNumber = currentValue.getText().toString();
         String prevNumber = latestNumber.getText().toString();
@@ -140,12 +145,16 @@ public class NormalMode extends AppCompatActivity {
                 } else resultTextView.setText("Деление на ноль невозможно");
             }
 
+            if (dotIsPresent(resultTextView.getText().toString())) {
+                String[] rounding = resultTextView.getText().toString().split("\\.");
+                if (rounding[1].length() == 1 && rounding[1].charAt(0) == '0') {
+                    resultTextView.setText(rounding[0]);
+                }
+            }
+
+
         }
 
-        String[] rounding = resultTextView.getText().toString().split("\\.");
-        if (rounding[1].length() == 1) {
-            resultTextView.setText(rounding[0]);
-        }
     }
 
   public void clear(View view){

@@ -31,6 +31,7 @@ drawable purple
 drawable ring
 drawable roundflask
 font amita
+font basic
 font bigshot_one
 font lovers_quarrel
 font new_rocker

@@ -60,10 +60,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButtonNormalMode"
         app:layout_constraintEnd_toEndOf="@+id/imageButtonNormalMode"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/imageButtonNormalMode"
         app:layout_constraintTop_toTopOf="@+id/imageButtonNormalMode"
-        app:layout_constraintVertical_bias="0.39999998" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <TextView
         android:id="@+id/textViewChemistryMode"
@@ -75,10 +75,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButtonChemistryMode"
         app:layout_constraintEnd_toEndOf="@+id/imageButtonChemistryMode"
-        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="@+id/imageButtonChemistryMode"
         app:layout_constraintTop_toTopOf="@+id/imageButtonChemistryMode"
-        app:layout_constraintVertical_bias="0.32999998" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <ImageView
         android:id="@+id/cursor1"
@@ -138,10 +138,11 @@
         android:id="@+id/author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/lovers_quarrel"
         android:text="@string/author"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/pinkPuddle"
         app:layout_constraintEnd_toEndOf="@+id/pinkPuddle"
         app:layout_constraintStart_toStartOf="@+id/pinkPuddle"
         app:layout_constraintTop_toTopOf="@+id/pinkPuddle" />

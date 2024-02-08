@@ -23,10 +23,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clear"
             android:text="@string/clear"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonEqual"
@@ -35,10 +35,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="showResult"
             android:text="@string/equal"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonDivide"
@@ -47,10 +47,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="mathematics"
             android:text="@string/divide"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,10 +69,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="changeStatus"
             android:text="@string/pos_neg"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button0"
@@ -81,11 +81,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_0"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonDecimal"
@@ -94,10 +94,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/decimal"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonMultiply"
@@ -106,10 +106,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="mathematics"
             android:text="@string/multiply"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -129,11 +129,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_1"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button2"
@@ -142,11 +142,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_2"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button3"
@@ -155,11 +155,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_3"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonMinus"
@@ -168,10 +168,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="mathematics"
             android:text="@string/minus"
-            android:textSize="20sp"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="98dp"
             tools:layout_editor_absoluteY="483dp" />
     </LinearLayout>
@@ -193,11 +193,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_4"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button5"
@@ -206,11 +206,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_5"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button6"
@@ -219,11 +219,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_6"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:visibility="visible" />
 
         <Button
@@ -233,10 +233,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="mathematics"
             android:text="@string/plus"
-            android:textSize="20sp"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="659dp" />
     </LinearLayout>
@@ -261,12 +261,12 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_7"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button8"
@@ -275,11 +275,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_8"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button9"
@@ -288,11 +288,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="clickNumber"
             android:text="@string/number_9"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonBackspace"
@@ -301,7 +301,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/extra_Light"
-            android:fontFamily="@font/amita"
+            android:fontFamily="@font/basic"
             android:onClick="delete"
             android:text="@string/backspace"
             android:textSize="18sp" />
@@ -309,14 +309,14 @@
 
     <TextView
         android:id="@+id/ResultView"
-        android:layout_width="380dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/border"
-        android:fontFamily="@font/bigshot_one"
+        android:fontFamily="@font/basic"
         android:gravity="center"
         android:hint="@string/result_hint"
         android:textAlignment="center"
@@ -362,7 +362,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/border"
-        android:fontFamily="@font/bigshot_one"
+        android:fontFamily="@font/basic"
         android:gravity="center"
         android:textSize="25sp"
         android:verticalScrollbarPosition="defaultPosition"
@@ -378,7 +378,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/border"
-        android:fontFamily="@font/bigshot_one"
+        android:fontFamily="@font/basic"
         android:hint="@string/prevNumber"
         android:textAlignment="textEnd"
         android:textSize="25sp"
@@ -394,7 +394,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/border"
-        android:fontFamily="@font/bigshot_one"
+        android:fontFamily="@font/basic"
         android:hint="@string/CurrentNumber"
         android:textAlignment="textEnd"
         android:textSize="25sp"

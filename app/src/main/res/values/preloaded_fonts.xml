@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
+        <item>@font/basic</item>
         <item>@font/bigshot_one</item>
         <item>@font/lovers_quarrel</item>
         <item>@font/new_rocker</item>
