@@ -4,9 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="start_page_back">#92EAD8</color>
     <color name="select_mode_back">#DEECEB</color>
-    <color name="ButtonNormalMode">#26A69A</color>
-    <color name="pink_light">#DAA8A8</color>
+    <color name="ButtonNormalMode">#15AFC3</color>
+    <color name="button_theme_color">#8CC8D8</color>
     <color name="extra_Light">#8CC8D8</color>
     <color name="yellow_extraLight">#F7FDDD</color>
-    <color name="purple_extraLight">#F6ECFA</color>
+    <color name="day_night_background">#F6F5F6</color>
+    <color name="purple_extraLight">#F6F5F6</color>
 </resources>

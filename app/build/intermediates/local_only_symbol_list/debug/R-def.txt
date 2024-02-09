@@ -6,9 +6,10 @@ array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color ButtonNormalMode
 color black
+color button_theme_color
+color day_night_background
 color extra_Light
 color ic_launcher_background
-color pink_light
 color purple_extraLight
 color select_mode_back
 color start_page_back
@@ -16,6 +17,7 @@ color white
 color yellow_extraLight
 drawable bluelight
 drawable border
+drawable borderoval
 drawable cloud_left
 drawable cloud_right
 drawable cursor

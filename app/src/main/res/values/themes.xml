@@ -4,7 +4,7 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
 
-        <item name="colorPrimary">@color/extra_Light</item>
+        <item name="colorPrimary">@color/button_theme_color</item>
     </style>
 
     <style name="Theme.ChemistryAssistant" parent="Base.Theme.ChemistryAssistant" />

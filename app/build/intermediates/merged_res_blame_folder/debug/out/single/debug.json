@@ -80,10 +80,6 @@
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.chemistryassistant.app-merged_res-28:/layout_normal_mode_page.xml.flat",
-        "source": "com.example.chemistryassistant.app-main-30:/layout/normal_mode_page.xml"
-    },
-    {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -92,12 +88,16 @@
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-pngs-24:\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "com.example.chemistryassistant.app-merged_res-28:/drawable_borderoval.xml.flat",
+        "source": "com.example.chemistryassistant.app-main-30:/drawable/borderoval.xml"
     },
     {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-pngs-24:\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -154,6 +154,10 @@
     {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\drawable_borderoval.xml.flat",
+        "source": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-main-30:\\drawable\\borderoval.xml"
     },
     {
         "merged": "C:\\Users\\lukke\\.gradle\\daemon\\8.5\\com.example.chemistryassistant.app-merged_res-28:\\drawable_extralight2.png.flat",
