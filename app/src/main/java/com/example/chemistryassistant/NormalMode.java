@@ -127,21 +127,17 @@ public class NormalMode extends AppCompatActivity {
         if (view.getId() == R.id.buttonEqual) {
             if (operations.getText() == "+") {
                 result = Double.parseDouble(currentNumber) + Double.parseDouble(prevNumber);
-                result = Math.ceil(result * 1000000.0) / 1000000.0;
-                resultTextView.setText(String.valueOf(result));
+                setResult(result);
             } else if (operations.getText() == "-") {
                 result = Double.parseDouble(prevNumber) - Double.parseDouble(currentNumber);
-                result = Math.ceil(result * 1000000.0) / 1000000.0;
-                resultTextView.setText(String.valueOf(result));
+                setResult(result);
             } else if (operations.getText() == "*") {
                 result = Double.parseDouble(currentNumber) * Double.parseDouble(prevNumber);
-                result = Math.ceil(result * 1000000.0) / 1000000.0;
-                resultTextView.setText(String.valueOf(result));
+                setResult(result);
             } else if (operations.getText() == "/") {
                 if (Double.parseDouble(currentNumber) != 0) {
                     result = Double.parseDouble(prevNumber) / Double.parseDouble(currentNumber);
-                    result = Math.ceil(result * 1000000.0) / 1000000.0;
-                    resultTextView.setText(String.valueOf(result));
+                    setResult(result);
                 } else resultTextView.setText("Деление на ноль невозможно");
             }
 
@@ -149,6 +145,7 @@ public class NormalMode extends AppCompatActivity {
                 String[] rounding = resultTextView.getText().toString().split("\\.");
                 if (rounding[1].length() == 1 && rounding[1].charAt(0) == '0') {
                     resultTextView.setText(rounding[0]);
+                    currentValue.setText(resultTextView.getText());
                 }
             }
 
@@ -173,5 +170,13 @@ public class NormalMode extends AppCompatActivity {
             String lastChar = number.substring(0, number.length() - 1);
             currentValue.setText(lastChar);
         }
+  }
+  public void setResult(Double result){
+        result = Math.ceil(result * 1000000.0) / 1000000.0;
+      resultTextView.setText(String.valueOf(result));
+      currentValue.setText(resultTextView.getText());
+      latestNumber.setText("0");
+
+
   }
 }

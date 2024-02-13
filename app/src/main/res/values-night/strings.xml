@@ -31,4 +31,7 @@
     <string name="author">developed by Lukaskeyn</string>
     <string name="prevNumber">Previous value</string>
     <string name="CurrentNumber">Current value</string>
+    <string name="to_periodic_table">To periodic table</string>
+    <string name="period">P</string>
+    <string name="row">R</string>
 </resources>

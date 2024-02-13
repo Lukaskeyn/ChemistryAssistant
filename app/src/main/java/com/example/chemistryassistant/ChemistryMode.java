@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ChemistryMode extends AppCompatActivity {
 
-    private Button back;
+    private Button back, toPeriodic;
 
 
     @Override
@@ -18,10 +18,16 @@ public class ChemistryMode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chemistry_mode_page);
 
-        back = findViewById(R.id.chemModeBackButton);
+        back = findViewById(R.id.backOnStartPage);
+        toPeriodic = findViewById(R.id.toPeriodicTableButton);
         back.setOnClickListener(v -> {
             Intent switchOnMainPage = new Intent(this, MainActivity.class);
             startActivity(switchOnMainPage);
         });
+        toPeriodic.setOnClickListener(v -> {
+            Intent switchOnPeriodicTable = new Intent(this, PeriodicTable.class);
+            startActivity(switchOnPeriodicTable);
+        });
+
     }
 }

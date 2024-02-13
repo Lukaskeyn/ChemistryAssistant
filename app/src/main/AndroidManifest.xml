@@ -29,6 +29,10 @@
             android:name=".ChemistryMode"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".PeriodicTable"
+            android:exported="false">
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

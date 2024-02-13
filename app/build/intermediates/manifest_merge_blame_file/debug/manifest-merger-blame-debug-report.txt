@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\lukke\.gradle\caches\transforms-3\0727e35ddcdc8de4df2ed1acb80a64e1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:5:5-36:19
+17-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:5:5-40:19
 18        android:allowBackup="true"
 18-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -74,35 +74,42 @@
 44            android:exported="false" >
 44-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:30:13-37
 45        </activity>
-46
-47        <meta-data
-47-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:33:9-35:57
-48            android:name="preloaded_fonts"
-48-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:34:13-43
-49            android:resource="@array/preloaded_fonts" />
-49-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:35:13-54
+46        <activity
+46-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:32:9-35:20
+47            android:name="com.example.chemistryassistant.PeriodicTable"
+47-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:33:13-42
+48            android:exported="false" >
+48-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:34:13-37
+49        </activity>
 50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-53            android:authorities="com.example.chemistryassistant.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+51        <meta-data
+51-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:37:9-39:57
+52            android:name="preloaded_fonts"
+52-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:38:13-43
+53            android:resource="@array/preloaded_fonts" />
+53-->C:\Users\lukke\AndroidStudioProjects\ChemistryAssistant\app\src\main\AndroidManifest.xml:39:13-54
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.chemistryassistant.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lukke\.gradle\caches\transforms-3\422800370d88681b97d8a29879aadaa7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lukke\.gradle\caches\transforms-3\a6cc2bb92460195c72f6f4263c068b0d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

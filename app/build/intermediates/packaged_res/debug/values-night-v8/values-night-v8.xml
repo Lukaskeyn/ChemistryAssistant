@@ -2,13 +2,22 @@
 <resources>
     <color name="ButtonNormalMode">#26A69A</color>
     <color name="black">#FF000000</color>
+    <color name="blue">#80D8FF</color>
+    <color name="brown">#913B0D</color>
+    <color name="button_chem_theme_color">#FAC1F2</color>
     <color name="button_theme_color">#A5A1A1</color>
-    <color name="day_night_background">#8E6AF3</color>
+    <color name="day_night_background">#8E68F8</color>
     <color name="extra_Light">#8CC8D8</color>
+    <color name="green">#ACFFA3</color>
+    <color name="orange">#EC8608</color>
+    <color name="purple">#6F0DF8</color>
     <color name="purple_extraLight">#F6F5F6</color>
+    <color name="red">#FB0808</color>
+    <color name="result_view_color">#5E5E5E</color>
     <color name="select_mode_back">#DEECEB</color>
     <color name="start_page_back">#8E6AF3</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FBDD7E</color>
     <color name="yellow_extraLight">#F7FDDD</color>
     <string name="CurrentNumber">Current value</string>
     <string name="action_settings">Settings</string>
@@ -35,13 +44,16 @@
     <string name="number_7">7</string>
     <string name="number_8">8</string>
     <string name="number_9">9</string>
+    <string name="period">P</string>
     <string name="periodic_table_button">Periodic table</string>
     <string name="plus">+</string>
     <string name="pos_neg">+/-</string>
     <string name="prevNumber">Previous value</string>
     <string name="result_hint">Result</string>
+    <string name="row">R</string>
     <string name="select_mode_text">Select mode</string>
     <string name="solubility_table_button">Solubility table</string>
+    <string name="to_periodic_table">To periodic table</string>
     <style name="Base.Theme.ChemistryAssistant" parent="Theme.Material3.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/black</item>
