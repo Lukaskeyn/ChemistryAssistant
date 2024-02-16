@@ -8,13 +8,16 @@
     <color name="green_light">#ABFFA8</color>
     <color name="yellow">#FFFF91</color>
     <color name="red">#FB0808</color>
+    <color name="pink_light">#FF93FD</color>
     <color name="red_light">#FF9595</color>
     <color name="orange">#FA9212</color>
     <color name="orange_light">#F4B96C</color>
     <color name="purple">#6F0DF8</color>
+    <color name="purple_light">#DFC8FF</color>
     <color name="brown">#913B0D</color>
     <color name="grey">#919191</color>
     <color name="start_page_back">#92EAD8</color>
+    <color name="start_page_back_2">#FDFDFD</color>
     <color name="select_mode_back">#DEECEB</color>
     <color name="ButtonNormalMode">#15AFC3</color>
     <color name="button_theme_color">#8CC8D8</color>

@@ -47,6 +47,18 @@
             android:name="com.example.chemistryassistant.PeriodicTable"
             android:exported="false" >
         </activity>
+        <activity
+            android:name="com.example.chemistryassistant.PeriodicTable2"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.example.chemistryassistant.PeriodicTable4"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.example.chemistryassistant.PeriodicTable3"
+            android:exported="false" >
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_page_back_2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/borderelement"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/elements_group"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/group_1"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/group_2"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/group_3"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/group_4"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/group_5"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/cesium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderalkali"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/caesium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/barium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderalkalineearthmetals"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/barium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/lanthan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/lanthan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/hafnium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/hafnium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/tantalium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/tantalum"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+        <Button
+            android:id="@+id/gold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/gold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/mercury"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/mercury"
+            android:textColor="@color/blue"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/thalium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/thallium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/lead"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/lead"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/bismuth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/bismuth"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <Button
+            android:id="@+id/francium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderalkali"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/francium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/radium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderalkalineearthmetals"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/radium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/actinium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderactinoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/actinium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/rutherfordium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/rutherfordium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/dubnium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bordermetalls"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/dubnium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/molecularWeight3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textviewborder"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentElement3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear3" />
+
+    <TextView
+        android:id="@+id/currentElement3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textviewborder"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/backOnPeriodicPage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/molecularWeight3"
+        tools:ignore="RtlCompat" />
+
+
+    <Button
+        android:id="@+id/backOnPeriodicPage2"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/borderbackbutton"
+        android:backgroundTint="@color/purple_extraLight"
+        android:ellipsize="none"
+        android:fontFamily="casual"
+        android:text="@string/back_on_the_previous_page"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/clearbutton"
+        android:fontFamily="casual"
+        android:onClick="clear"
+        android:text="@string/clear"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toPeriodicTable4"
+        app:layout_constraintStart_toEndOf="@+id/backOnPeriodicPage2" />
+
+    <Button
+        android:id="@+id/toPeriodicTable4"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/borderchembutton"
+        android:ellipsize="none"
+        android:fontFamily="casual"
+        android:text="@string/next_page"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/cerium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/cerium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/praseodinium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/praseodium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/neodymium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/neodymium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/promethium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/promethium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/samarium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/samarium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear1">
+
+        <Button
+            android:id="@+id/europium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/europium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/gadolinium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/gadolinium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/terbium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/terbium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/dysprosium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/dysprosium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/holmium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/holmium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear2">
+
+        <Button
+            android:id="@+id/erbium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/erbium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/thulium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/thulium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/ytterbium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/ytterbium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <Button
+            android:id="@+id/lutetium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderlanthanoids"
+            android:fontFamily="sans-serif-black"
+            android:onClick="clickElement"
+            android:text="@string/lutetium"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:backgroundTint="@color/black"
+            app:backgroundTintMode="screen" />
+
+        <ImageView
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/borderelement"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

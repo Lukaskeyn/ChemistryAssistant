@@ -33,6 +33,18 @@
             android:name=".PeriodicTable"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".PeriodicTable2"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PeriodicTable4"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PeriodicTable3"
+            android:exported="false">
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

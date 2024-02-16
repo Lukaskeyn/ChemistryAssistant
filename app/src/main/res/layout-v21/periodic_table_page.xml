@@ -8,11 +8,11 @@
     <Button
         android:id="@+id/toPeriodicTable2"
         style="@style/Widget.Material3.Button.ElevatedButton"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/borderchembutton"
         android:ellipsize="none"
         android:fontFamily="casual"
@@ -23,265 +23,33 @@
         app:backgroundTintMode="screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/currentElement"
-        app:layout_constraintTop_toBottomOf="@+id/molecularWeightResult" />
+        app:layout_constraintStart_toEndOf="@+id/button" />
 
     <TextView
         android:id="@+id/currentElement"
         android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/textviewborder"
         android:fontFamily="sans-serif"
         android:gravity="center_vertical"
         android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/toPeriodicTable2"
-        app:layout_constraintStart_toEndOf="@+id/backOnChemistryPage"
-        app:layout_constraintTop_toBottomOf="@+id/mChar"
+        app:layout_constraintBottom_toTopOf="@+id/toPeriodicTable2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/molecularWeightResult"
         tools:ignore="RtlCompat" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
 
-        <Button
-            android:id="@+id/francium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderalkali"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/francium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/radium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderalkalineearthmetals"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/radium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/actinoids"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderaclan"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/actinoids"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/rutherfordium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/rutherfordium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/dubnium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/dubnium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout13"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
-
-        <Button
-            android:id="@+id/gold"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/gold"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/mercury"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/mercury"
-            android:textColor="@color/blue"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/thalium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/thallium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/lead"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/lead"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/bismuth"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/bismuth"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout12"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
-
-        <Button
-            android:id="@+id/cesium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderalkali"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/caesium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/barium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderalkalineearthmetals"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/barium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/lanthanoids"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/borderaclan"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/lanthanoids"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/hafnium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/hafnium"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-
-        <Button
-            android:id="@+id/tantalium"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="@drawable/bordermetalls"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/tantalum"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:backgroundTint="@color/black"
-            app:backgroundTintMode="screen" />
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout11"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -300,7 +68,7 @@
             android:onClick="clickElement"
             android:text="@string/silver"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -314,7 +82,7 @@
             android:onClick="clickElement"
             android:text="@string/cadmium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -328,7 +96,7 @@
             android:onClick="clickElement"
             android:text="@string/indium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -342,7 +110,7 @@
             android:onClick="clickElement"
             android:text="@string/tin"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -356,7 +124,7 @@
             android:onClick="clickElement"
             android:text="@string/antimony"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -364,7 +132,7 @@
     <LinearLayout
         android:id="@+id/linearLayout10"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -383,7 +151,7 @@
             android:onClick="clickElement"
             android:text="@string/rubidium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -397,7 +165,7 @@
             android:onClick="clickElement"
             android:text="@string/strontium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -411,7 +179,7 @@
             android:onClick="clickElement"
             android:text="@string/yttrium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -425,7 +193,7 @@
             android:onClick="clickElement"
             android:text="@string/zirconium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -439,7 +207,7 @@
             android:onClick="clickElement"
             android:text="@string/niobium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -447,7 +215,7 @@
     <LinearLayout
         android:id="@+id/linearLayout9"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -466,7 +234,7 @@
             android:onClick="clickElement"
             android:text="@string/copper"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -480,7 +248,7 @@
             android:onClick="clickElement"
             android:text="@string/zinc"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -494,7 +262,7 @@
             android:onClick="clickElement"
             android:text="@string/gallium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -508,7 +276,7 @@
             android:onClick="clickElement"
             android:text="@string/germanium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -522,7 +290,7 @@
             android:onClick="clickElement"
             android:text="@string/arsenic"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -530,7 +298,7 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -549,7 +317,7 @@
             android:onClick="clickElement"
             android:text="@string/potassium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -563,7 +331,7 @@
             android:onClick="clickElement"
             android:text="@string/calcium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -577,7 +345,7 @@
             android:onClick="clickElement"
             android:text="@string/scandium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -591,7 +359,7 @@
             android:onClick="clickElement"
             android:text="@string/titanium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -605,7 +373,7 @@
             android:onClick="clickElement"
             android:text="@string/vanadium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -613,7 +381,7 @@
     <LinearLayout
         android:id="@+id/linearLayout8"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -632,7 +400,7 @@
             android:onClick="clickElement"
             android:text="@string/sodium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -646,7 +414,7 @@
             android:onClick="clickElement"
             android:text="@string/magnesium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -660,7 +428,7 @@
             android:onClick="clickElement"
             android:text="@string/aluminium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -674,7 +442,7 @@
             android:onClick="clickElement"
             android:text="@string/silicon"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -688,15 +456,15 @@
             android:onClick="clickElement"
             android:text="@string/phosphorus"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
-        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -715,7 +483,7 @@
             android:onClick="clickElement"
             android:text="@string/lithium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -729,7 +497,7 @@
             android:onClick="clickElement"
             android:text="@string/beryllium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -743,7 +511,7 @@
             android:onClick="clickElement"
             android:text="@string/boron"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -757,7 +525,7 @@
             android:onClick="clickElement"
             android:text="@string/carbon"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -771,7 +539,7 @@
             android:onClick="clickElement"
             android:text="@string/nitrogen"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -780,11 +548,11 @@
     <Button
         android:id="@+id/backOnChemistryPage"
         style="@style/Widget.Material3.Button.ElevatedButton"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/borderbackbutton"
         android:backgroundTint="@color/purple_extraLight"
         android:ellipsize="none"
@@ -795,14 +563,13 @@
         app:backgroundTint="@android:color/black"
         app:backgroundTintMode="screen"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/currentElement"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
@@ -820,7 +587,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -909,7 +676,7 @@
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:orientation="horizontal"
@@ -927,7 +694,7 @@
             android:onClick="clickElement"
             android:text="@string/hydrogen"
             android:textColor="@color/red"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -971,43 +738,29 @@
     <TextView
         android:id="@+id/molecularWeightResult"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/textviewborder"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/toPeriodicTable2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/mChar"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
-
-    <TextView
-        android:id="@+id/mChar"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:background="@drawable/textviewborder"
-        android:fontFamily="sans-serif"
-        android:gravity="center_vertical"
-        android:text="@string/molecular_equal"
-        android:textAlignment="center"
-        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/currentElement"
-        app:layout_constraintEnd_toStartOf="@+id/molecularWeightResult"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        tools:ignore="RtlCompat" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/clearbutton"
         android:fontFamily="casual"
         android:onClick="clear"
@@ -1015,9 +768,8 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/black"
         app:backgroundTintMode="screen"
-        app:layout_constraintBottom_toTopOf="@+id/backOnChemistryPage"
-        app:layout_constraintEnd_toStartOf="@+id/mChar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toPeriodicTable2"
+        app:layout_constraintStart_toEndOf="@+id/backOnChemistryPage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

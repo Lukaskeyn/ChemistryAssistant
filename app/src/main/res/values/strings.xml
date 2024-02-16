@@ -76,7 +76,7 @@
     <string name="antimony">Sb</string>
     <string name="caesium">Cs</string>
     <string name="barium">Ba</string>
-    <string name="lanthanoids">La</string>
+    <string name="lanthan">La</string>
     <string name="hafnium">Hf</string>
     <string name="tantalum">Ta</string>
     <string name="gold">Au</string>
@@ -86,9 +86,107 @@
     <string name="bismuth">Bi</string>
     <string name="francium">Fr</string>
     <string name="radium">Ra</string>
-    <string name="actinoids">Ac</string>
+    <string name="actinium">Ac</string>
     <string name="rutherfordium">Rf</string>
     <string name="dubnium">Db</string>
     <string name="molecular_equal">M =</string>
     <string name="next_page">Next</string>
+    <string name="helium">He</string>
+    <string name="oxygen">O</string>
+    <string name="fluorum">F</string>
+    <string name="neon">Ne</string>
+    <string name="sulfur">S</string>
+    <string name="chlorium">Cl</string>
+    <string name="argon">Ar</string>
+    <string name="chromium">Cr</string>
+    <string name="manganese">Mn</string>
+    <string name="ferrum">Fe</string>
+    <string name="cobalt">Co</string>
+    <string name="nickel">Ni</string>
+    <string name="selenium">Se</string>
+    <string name="bromum">Br</string>
+    <string name="krypton">Kr</string>
+    <string name="molibdaenum">Mo</string>
+    <string name="technetium">Tc</string>
+    <string name="ruthenium">Ru</string>
+    <string name="rhodium">Rh</string>
+    <string name="palladium">Pd</string>
+    <string name="tellurium">Te</string>
+    <string name="iodum">I</string>
+    <string name="xenon">Xe</string>
+    <string name="wolframium">W</string>
+    <string name="rhenium">Re</string>
+    <string name="osmium">Os</string>
+    <string name="iridium">Ir</string>
+    <string name="cerium">Ce</string>
+    <string name="praseodium">Pr</string>
+    <string name="platinum">Pt</string>
+    <string name="neodymium">Nd</string>
+    <string name="promethium">Pm</string>
+    <string name="samarium">Sm</string>
+    <string name="europium">Eu</string>
+    <string name="gadolinium">Gd</string>
+    <string name="terbium">Tb</string>
+    <string name="dysprosium">Dy</string>
+    <string name="holmium">Ho</string>
+    <string name="erbium">Er</string>
+    <string name="thulium">Tm</string>
+    <string name="ytterbium">Yb</string>
+    <string name="lutetium">Lu</string>
+    <string name="polonium">Po</string>
+    <string name="astatium">At</string>
+    <string name="radon">Rn</string>
+    <string name="seaborgium">Sg</string>
+    <string name="bohrium">Bh</string>
+    <string name="hassium">Hs</string>
+    <string name="meitnerium">Mt</string>
+    <string name="darmshtatium">Ds</string>
+    <string name="thorium">Th</string>
+    <string name="protactinium">Pa</string>
+    <string name="uranium">U</string>
+    <string name="neptunium">Np</string>
+    <string name="plutonium">Pu</string>
+    <string name="americium">Am</string>
+    <string name="curium">Cm</string>
+    <string name="berkelum">Bk</string>
+    <string name="californium">Cf</string>
+    <string name="einsteinium">Es</string>
+    <string name="fermium">Fm</string>
+    <string name="mendelevium">Md</string>
+    <string name="nobelium">No</string>
+    <string name="lawrencium">Lr</string>
+    <string name="enter_value">Enter a value</string>
+    <string name="density">p =</string>
+    <string name="flaskVolume">Vf =</string>
+    <string name="u_m">U.m.</string>
+    <string-array name ="mWeight">
+        <item>g/mol</item>
+    </string-array>
+    <string-array name ="density">
+        <item>g/l</item>
+        <item>g/ml</item>
+    </string-array>
+    <string-array name ="volumeOfFlask">
+        <item>ml</item>
+    </string-array>
+    <string name="volume_mass">w =</string>
+    <string-array name ="u_m_volume_mass">
+        <item>%</item>
+    </string-array>
+    <string name="toChemistryModeButton">To chemistry mode</string>
+    <string-array name ="volumeOfFlaskValue">
+        <item>1000</item>
+        <item>2000</item>
+        <item>500</item>
+        <item>250</item>
+        <item>200</item>
+        <item>100</item>
+        <item>50</item>
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+    <string name="concentration">c =</string>
+    <string-array name ="u_m_concentration">
+        <item>mol/l</item>
+    </string-array>
 </resources>
