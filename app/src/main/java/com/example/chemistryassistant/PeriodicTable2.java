@@ -222,15 +222,16 @@ public class PeriodicTable2 extends AppCompatActivity {
         molecularWeight.setText(result);
     }
     public void showElementsLine(String elements, String element){
-        if(element.length() <2) {
-            element = element + " ";
-        }
-
         if(elements.length() >= 1 && elements.length() <=19) {
             elements = elements + "+" + element; }
-        else if(elements.length() > 19) {
-            elements = currentElement.getText().toString().substring(3) + "+" + element;
-
+        else if(elements.length() >= 19) {
+            String index[] = elements.split("[+]");
+            if(index[0].length() == 1) {
+                elements = currentElement.getText().toString().substring(2) + "+" + element;
+            }
+            else if(index[0].length() == 2) {
+                elements = currentElement.getText().toString().substring(3) + "+" + element;
+            }
         }
 
         else {

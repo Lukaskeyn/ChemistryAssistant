@@ -15,7 +15,7 @@
         android:layout_marginBottom="15dp"
         android:background="@drawable/borderchembutton"
         android:ellipsize="none"
-        android:fontFamily="casual"
+        android:fontFamily="@font/basic"
         android:text="@string/next_page"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -68,7 +68,7 @@
             android:onClick="clickElement"
             android:text="@string/silver"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -82,7 +82,7 @@
             android:onClick="clickElement"
             android:text="@string/cadmium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -96,7 +96,7 @@
             android:onClick="clickElement"
             android:text="@string/indium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -110,7 +110,7 @@
             android:onClick="clickElement"
             android:text="@string/tin"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -124,7 +124,7 @@
             android:onClick="clickElement"
             android:text="@string/antimony"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -151,7 +151,7 @@
             android:onClick="clickElement"
             android:text="@string/rubidium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -165,7 +165,7 @@
             android:onClick="clickElement"
             android:text="@string/strontium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -179,7 +179,7 @@
             android:onClick="clickElement"
             android:text="@string/yttrium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -193,7 +193,7 @@
             android:onClick="clickElement"
             android:text="@string/zirconium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -207,7 +207,7 @@
             android:onClick="clickElement"
             android:text="@string/niobium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -234,7 +234,7 @@
             android:onClick="clickElement"
             android:text="@string/copper"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -248,7 +248,7 @@
             android:onClick="clickElement"
             android:text="@string/zinc"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -262,7 +262,7 @@
             android:onClick="clickElement"
             android:text="@string/gallium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -276,7 +276,7 @@
             android:onClick="clickElement"
             android:text="@string/germanium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -290,7 +290,7 @@
             android:onClick="clickElement"
             android:text="@string/arsenic"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -317,7 +317,7 @@
             android:onClick="clickElement"
             android:text="@string/potassium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -331,7 +331,7 @@
             android:onClick="clickElement"
             android:text="@string/calcium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -345,7 +345,7 @@
             android:onClick="clickElement"
             android:text="@string/scandium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -359,7 +359,7 @@
             android:onClick="clickElement"
             android:text="@string/titanium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -373,7 +373,7 @@
             android:onClick="clickElement"
             android:text="@string/vanadium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -400,7 +400,7 @@
             android:onClick="clickElement"
             android:text="@string/sodium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -411,10 +411,13 @@
             android:layout_weight="2"
             android:background="@drawable/borderalkalineearthmetals"
             android:fontFamily="sans-serif-black"
+            android:foregroundGravity="center"
+            android:gravity="center"
             android:onClick="clickElement"
             android:text="@string/magnesium"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -428,7 +431,7 @@
             android:onClick="clickElement"
             android:text="@string/aluminium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -442,7 +445,7 @@
             android:onClick="clickElement"
             android:text="@string/silicon"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -456,7 +459,7 @@
             android:onClick="clickElement"
             android:text="@string/phosphorus"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
     </LinearLayout>
@@ -483,7 +486,7 @@
             android:onClick="clickElement"
             android:text="@string/lithium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -497,7 +500,7 @@
             android:onClick="clickElement"
             android:text="@string/beryllium"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -511,7 +514,7 @@
             android:onClick="clickElement"
             android:text="@string/boron"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -525,7 +528,7 @@
             android:onClick="clickElement"
             android:text="@string/carbon"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -539,7 +542,7 @@
             android:onClick="clickElement"
             android:text="@string/nitrogen"
             android:textColor="@color/black"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -556,7 +559,7 @@
         android:background="@drawable/borderbackbutton"
         android:backgroundTint="@color/purple_extraLight"
         android:ellipsize="none"
-        android:fontFamily="casual"
+        android:fontFamily="@font/basic"
         android:text="@string/back_on_the_previous_page"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -694,7 +697,7 @@
             android:onClick="clickElement"
             android:text="@string/hydrogen"
             android:textColor="@color/red"
-            android:textSize="13sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/black"
             app:backgroundTintMode="screen" />
 
@@ -762,7 +765,7 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/clearbutton"
-        android:fontFamily="casual"
+        android:fontFamily="@font/basic"
         android:onClick="clear"
         android:text="@string/clear"
         android:textColor="@color/black"

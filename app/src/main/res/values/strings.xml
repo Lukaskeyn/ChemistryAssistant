@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ChemistryAssistant</string>
     <string name="action_settings">Settings</string>
-    <string name="normal_mode_button">Casual</string>
+    <string name="normal_mode_button">Calculator</string>
     <string name="chemistry_mode_button">Chemistry</string>
     <string name="periodic_table_button">Periodic table</string>
     <string name="solubility_table_button">Solubility table</string>
@@ -156,24 +156,28 @@
     <string name="nobelium">No</string>
     <string name="lawrencium">Lr</string>
     <string name="enter_value">Enter a value</string>
-    <string name="density">p =</string>
-    <string name="flaskVolume">Vf =</string>
+    <string name="density">p</string>
+    <string name="flaskVolume">Vf</string>
     <string name="u_m">U.m.</string>
     <string-array name ="mWeight">
         <item>g/mol</item>
     </string-array>
     <string-array name ="density">
-        <item>g/l</item>
         <item>g/ml</item>
+        <item>kg/l</item>
     </string-array>
     <string-array name ="volumeOfFlask">
         <item>ml</item>
     </string-array>
-    <string name="volume_mass">w =</string>
+    <string-array name ="volumeX">
+        <item>ml</item>
+        <item>ul</item>
+    </string-array>
+    <string name="volume_mass">w</string>
     <string-array name ="u_m_volume_mass">
         <item>%</item>
     </string-array>
-    <string name="toChemistryModeButton">To chemistry mode</string>
+    <string name="toChemistryModeButton">To calculations</string>
     <string-array name ="volumeOfFlaskValue">
         <item>1000</item>
         <item>2000</item>
@@ -185,8 +189,20 @@
         <item>25</item>
         <item>10</item>
     </string-array>
-    <string name="concentration">c =</string>
+    <string name="concentration">c</string>
+    <string name="concentrationX">Cx</string>
     <string-array name ="u_m_concentration">
         <item>mol/l</item>
+        <item>%</item>
+        <item>mg/l</item>
+        <item>mg/kg</item>
     </string-array>
+    <string name="volume_x">Vx</string>
+    <string-array name ="function">
+        <item>Dilution</item>
+        <item>Preparation of c (mol/l)</item>
+    </string-array>
+    <string name="calculate">Calculate</string>
+    <string name="formula_dilution">Vx = (Cx*Vf)/c</string>
+    <string name="formula_preparationMol">Vx = (c * M)/ (p *(w/100))</string>
 </resources>

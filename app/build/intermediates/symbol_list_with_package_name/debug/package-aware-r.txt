@@ -67,12 +67,14 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array density
+array function
 array mWeight
 array preloaded_fonts
 array u_m_concentration
 array u_m_volume_mass
 array volumeOfFlask
 array volumeOfFlaskValue
+array volumeX
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1790,7 +1792,6 @@ color secondary_text_disabled_material_light
 color select_mode_back
 color sp_element
 color start_page_back
-color start_page_back_2
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2475,6 +2476,7 @@ drawable borderactinoids
 drawable borderalkali
 drawable borderalkalineearthmetals
 drawable borderbackbutton
+drawable bordercalculatebutton
 drawable borderchembutton
 drawable borderelement
 drawable borderelementhydrogen
@@ -2483,6 +2485,7 @@ drawable borderlanthanoids
 drawable bordermetalls
 drawable bordernoblegas
 drawable bordernonmetalls
+drawable bordervolumeflask
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2500,11 +2503,15 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable editextborder
 drawable ethyl
 drawable extralight
 drawable extralight2
+drawable functionborder
+drawable glyphosate
 drawable greenlight
 drawable ic_clock_black_24dp
+drawable ic_down
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2561,6 +2568,7 @@ drawable pink
 drawable purple
 drawable ring
 drawable roundflask
+drawable stylespinner
 drawable test_custom_background
 drawable test_level_drawable
 drawable textviewborder
@@ -2577,7 +2585,6 @@ id BOTTOM_START
 id BackPageNButton
 id CTRL
 id FUNCTION
-id M
 id META
 id NO_DEBUG
 id ResultView
@@ -2734,6 +2741,7 @@ id buttonPosNeg
 id cache_measures
 id cadmium
 id calcium
+id calculateButton
 id californium
 id callMeasure
 id cancel_button
@@ -2766,8 +2774,8 @@ id closest
 id cobalt
 id collapseActionView
 id compress
-id concentration
 id concentrationValue
+id concentrationValueX
 id confirm_button
 id constraint
 id container
@@ -2798,7 +2806,6 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
-id density
 id densityValue
 id dependency_ordering
 id design_bottom_sheet
@@ -2851,14 +2858,15 @@ id fill_vertical
 id filled
 id fitToContents
 id fixed
-id flaskVolume
 id flip
 id floating
 id fluorine
 id forever
+id formulas
 id fragment_container_view_tag
 id francium
 id frost
+id function
 id gadolinium
 id gallium
 id germanium
@@ -2893,6 +2901,7 @@ id imageButtonChemistryMode
 id imageButtonNormalMode
 id imageLogo
 id imageView
+id imageView2
 id immediateStop
 id included
 id indium
@@ -2949,7 +2958,6 @@ id lutetium
 id magnesium
 id manganese
 id masked
-id massFraction
 id massFractionValue
 id match_constraint
 id match_parent
@@ -3231,10 +3239,12 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id um_concentration
+id um_concentrationX
 id um_density
 id um_flaskVolume
 id um_flaskVolumeValue
 id um_mass_fraction
+id um_volumeX
 id unchecked
 id uniform
 id unlabeled
@@ -3251,6 +3261,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id volumeX
 id west
 id withText
 id withinBounds
@@ -3503,6 +3514,7 @@ string bromum
 string cadmium
 string caesium
 string calcium
+string calculate
 string californium
 string carbon
 string cerium
@@ -3517,6 +3529,7 @@ string clear
 string clear_text_end_icon_content_description
 string cobalt
 string concentration
+string concentrationX
 string copper
 string curium
 string darmshtatium
@@ -3539,6 +3552,8 @@ string fermium
 string ferrum
 string flaskVolume
 string fluorum
+string formula_dilution
+string formula_preparationMol
 string francium
 string gadolinium
 string gallium
@@ -3737,6 +3752,7 @@ string u_m
 string uranium
 string vanadium
 string volume_mass
+string volume_x
 string wolframium
 string xenon
 string ytterbium
@@ -4103,6 +4119,8 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style SpinnerTheme
+style SpinnerTheme2
 style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style Test_Theme_MaterialComponents_MaterialCalendar
 style Test_Widget_MaterialComponents_MaterialCalendar

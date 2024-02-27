@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_page_back">
+
+    <Spinner
+        android:id="@+id/um_volumeX"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/volumeX"
+        app:layout_constraintStart_toEndOf="@+id/volumeX"
+        app:layout_constraintTop_toTopOf="@+id/volumeX" />
+
+    <Spinner
+        android:id="@+id/um_concentrationX"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/concentrationValueX"
+        app:layout_constraintStart_toEndOf="@+id/concentrationValueX"
+        app:layout_constraintTop_toTopOf="@+id/concentrationValueX"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/concentrationValueX"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/editextborder"
+        android:ems="10"
+        android:fontFamily="@font/basic"
+        android:gravity="center"
+        android:hint="@string/concentrationX"
+        android:inputType="number|numberDecimal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/um_volumeX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/massFractionValue" />
+
+    <Spinner
+        android:id="@+id/um_concentration"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/concentrationValue"
+        app:layout_constraintStart_toEndOf="@+id/concentrationValue"
+        app:layout_constraintTop_toTopOf="@+id/concentrationValue" />
+
+    <EditText
+        android:id="@+id/concentrationValue"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editextborder"
+        android:fontFamily="@font/basic"
+        android:gravity="center"
+        android:hint="@string/concentration"
+        android:inputType="number|numberDecimal"
+        android:textColorHint="#5C5B5B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/um_flaskVolumeValue" />
+
+    <Spinner
+        android:id="@+id/um_flaskVolumeValue"
+        style="@style/SpinnerTheme2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bordervolumeflask"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        android:theme="@style/SpinnerTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/um_flaskVolume"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/um_flaskVolumeValue"
+        app:layout_constraintStart_toEndOf="@+id/um_flaskVolumeValue"
+        app:layout_constraintTop_toTopOf="@+id/um_flaskVolumeValue"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/um_mass_fraction"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/massFractionValue"
+        app:layout_constraintStart_toEndOf="@+id/massFractionValue"
+        app:layout_constraintTop_toTopOf="@+id/massFractionValue"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/massFractionValue"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editextborder"
+        android:ems="10"
+        android:fontFamily="@font/basic"
+        android:gravity="center"
+        android:hint="@string/volume_mass"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#5C5B5B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/densityValue" />
+
+    <Spinner
+        android:id="@+id/um_density"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/densityValue"
+        app:layout_constraintStart_toEndOf="@+id/densityValue"
+        app:layout_constraintTop_toTopOf="@+id/densityValue"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/molecularWeightValue"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editextborder"
+        android:ems="10"
+        android:fontFamily="@font/basic"
+        android:gravity="center"
+        android:hint="M"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#5C5B5B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/concentrationValue" />
+
+    <Spinner
+        android:id="@+id/em_mWeight"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stylespinner"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/molecularWeightValue"
+        app:layout_constraintStart_toEndOf="@+id/molecularWeightValue"
+        app:layout_constraintTop_toTopOf="@+id/molecularWeightValue"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/densityValue"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editextborder"
+        android:fontFamily="@font/basic"
+        android:gravity="center"
+        android:hint="@string/density"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#5C5B5B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/molecularWeightValue" />
+
+    <Button
+        android:id="@+id/toPeriodicTableButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/borderchembutton"
+        android:fontFamily="@font/basic"
+        android:text="@string/to_periodic_table"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/backOnStartPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/borderbackbutton"
+        android:fontFamily="@font/basic"
+
+        android:text="@string/back_on_the_previous_page"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/clearbutton"
+        android:fontFamily="@font/basic"
+        android:onClick="clear"
+        android:text="@string/clear"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintStart_toEndOf="@+id/calculateButton"
+        app:layout_constraintTop_toBottomOf="@+id/function" />
+
+    <Spinner
+        android:id="@+id/function"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/functionborder"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        android:theme="@style/SpinnerTheme"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/volumeX"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editextborder"
+        android:fontFamily="@font/basic"
+        android:hint="@string/volume_x"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/concentrationValueX" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bordercalculatebutton"
+        android:fontFamily="@font/basic"
+        android:onClick="calculate"
+        android:text="@string/calculate"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@color/black"
+        app:backgroundTintMode="screen"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintTop_toBottomOf="@+id/function" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/glyphosate" />
+
+    <TextView
+        android:id="@+id/formulas"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/borderelement"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toPeriodicTableButton"
+        app:layout_constraintStart_toEndOf="@+id/backOnStartPage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

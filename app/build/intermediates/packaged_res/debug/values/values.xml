@@ -15,8 +15,12 @@
         </item>
     </string-array>
     <string-array name="density">
-        <item>g/l</item>
         <item>g/ml</item>
+        <item>kg/l</item>
+    </string-array>
+    <string-array name="function">
+        <item>Dilution</item>
+        <item>Preparation of c (mol/l)</item>
     </string-array>
     <string-array name="mWeight">
         <item>g/mol</item>
@@ -30,6 +34,9 @@
     </array>
     <string-array name="u_m_concentration">
         <item>mol/l</item>
+        <item>%</item>
+        <item>mg/l</item>
+        <item>mg/kg</item>
     </string-array>
     <string-array name="u_m_volume_mass">
         <item>%</item>
@@ -47,6 +54,10 @@
         <item>50</item>
         <item>25</item>
         <item>10</item>
+    </string-array>
+    <string-array name="volumeX">
+        <item>ml</item>
+        <item>ul</item>
     </string-array>
     <color name="ButtonNormalMode">#15AFC3</color>
     <color name="black">#FF000000</color>
@@ -72,8 +83,7 @@
     <color name="result_view_color">#FAF7FA</color>
     <color name="select_mode_back">#DEECEB</color>
     <color name="sp_element">#FF6969</color>
-    <color name="start_page_back">#92EAD8</color>
-    <color name="start_page_back_2">#FDFDFD</color>
+    <color name="start_page_back">#FDFDFD</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFFF91</color>
     <color name="yellow_extraLight">#F7FDDD</color>
@@ -101,6 +111,7 @@
     <string name="cadmium">Cd</string>
     <string name="caesium">Cs</string>
     <string name="calcium">Ca</string>
+    <string name="calculate">Calculate</string>
     <string name="californium">Cf</string>
     <string name="carbon">C</string>
     <string name="cerium">Ce</string>
@@ -109,12 +120,13 @@
     <string name="chromium">Cr</string>
     <string name="clear">С</string>
     <string name="cobalt">Co</string>
-    <string name="concentration">c =</string>
+    <string name="concentration">c</string>
+    <string name="concentrationX">Cx</string>
     <string name="copper">Cu</string>
     <string name="curium">Cm</string>
     <string name="darmshtatium">Ds</string>
     <string name="decimal">,</string>
-    <string name="density">p =</string>
+    <string name="density">p</string>
     <string name="divide">/</string>
     <string name="dubnium">Db</string>
     <string name="dysprosium">Dy</string>
@@ -126,8 +138,10 @@
     <string name="europium">Eu</string>
     <string name="fermium">Fm</string>
     <string name="ferrum">Fe</string>
-    <string name="flaskVolume">Vf =</string>
+    <string name="flaskVolume">Vf</string>
     <string name="fluorum">F</string>
+    <string name="formula_dilution">Vx = (Cx*Vf)/c</string>
+    <string name="formula_preparationMol">Vx = (c * M)/ (p *(w/100))</string>
     <string name="francium">Fr</string>
     <string name="gadolinium">Gd</string>
     <string name="gallium">Ga</string>
@@ -173,7 +187,7 @@
     <string name="niobium">Nb</string>
     <string name="nitrogen">N</string>
     <string name="nobelium">No</string>
-    <string name="normal_mode_button">Casual</string>
+    <string name="normal_mode_button">Calculator</string>
     <string name="number_0">0</string>
     <string name="number_1">1</string>
     <string name="number_2">2</string>
@@ -229,12 +243,13 @@
     <string name="thulium">Tm</string>
     <string name="tin">Sn</string>
     <string name="titanium">Ti</string>
-    <string name="toChemistryModeButton">To chemistry mode</string>
+    <string name="toChemistryModeButton">To calculations</string>
     <string name="to_periodic_table">To periodic table</string>
     <string name="u_m">U.m.</string>
     <string name="uranium">U</string>
     <string name="vanadium">V</string>
-    <string name="volume_mass">w =</string>
+    <string name="volume_mass">w</string>
+    <string name="volume_x">Vx</string>
     <string name="wolframium">W</string>
     <string name="xenon">Xe</string>
     <string name="ytterbium">Yb</string>
@@ -246,6 +261,16 @@
         
 
         <item name="colorPrimary">@color/button_theme_color</item>
+    </style>
+    <style name="SpinnerTheme">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SpinnerTheme2">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="Theme.ChemistryAssistant" parent="Base.Theme.ChemistryAssistant"/>
 </resources>

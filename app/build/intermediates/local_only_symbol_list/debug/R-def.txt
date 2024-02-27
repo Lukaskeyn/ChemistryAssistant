@@ -4,12 +4,14 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array density
+array function
 array mWeight
 array preloaded_fonts
 array u_m_concentration
 array u_m_volume_mass
 array volumeOfFlask
 array volumeOfFlaskValue
+array volumeX
 color ButtonNormalMode
 color black
 color blue
@@ -35,7 +37,6 @@ color result_view_color
 color select_mode_back
 color sp_element
 color start_page_back
-color start_page_back_2
 color white
 color yellow
 color yellow_extraLight
@@ -45,6 +46,7 @@ drawable borderactinoids
 drawable borderalkali
 drawable borderalkalineearthmetals
 drawable borderbackbutton
+drawable bordercalculatebutton
 drawable borderchembutton
 drawable borderelement
 drawable borderelementhydrogen
@@ -53,14 +55,19 @@ drawable borderlanthanoids
 drawable bordermetalls
 drawable bordernoblegas
 drawable bordernonmetalls
+drawable bordervolumeflask
 drawable clearbutton
 drawable cloud_left
 drawable cloud_right
 drawable cursor
+drawable editextborder
 drawable ethyl
 drawable extralight
 drawable extralight2
+drawable functionborder
+drawable glyphosate
 drawable greenlight
+drawable ic_down
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
@@ -68,6 +75,7 @@ drawable pink
 drawable purple
 drawable ring
 drawable roundflask
+drawable stylespinner
 drawable textviewborder
 font amita
 font basic
@@ -75,7 +83,6 @@ font bigshot_one
 font lovers_quarrel
 font new_rocker
 id BackPageNButton
-id M
 id ResultView
 id SelectModeTextView
 id actinium
@@ -137,6 +144,7 @@ id buttonPlus
 id buttonPosNeg
 id cadmium
 id calcium
+id calculateButton
 id californium
 id carbon
 id cerium
@@ -144,8 +152,8 @@ id cesium
 id chlorine
 id chromium
 id cobalt
-id concentration
 id concentrationValue
+id concentrationValueX
 id copper
 id curium
 id current
@@ -156,7 +164,6 @@ id currentElement4
 id cursor1
 id cursor2
 id darmshtatium
-id density
 id densityValue
 id dubnium
 id dysprosium
@@ -166,9 +173,10 @@ id erbium
 id europium
 id fermium
 id ferrum
-id flaskVolume
 id fluorine
+id formulas
 id francium
+id function
 id gadolinium
 id gallium
 id germanium
@@ -182,6 +190,7 @@ id imageButtonChemistryMode
 id imageButtonNormalMode
 id imageLogo
 id imageView
+id imageView2
 id indium
 id iodum
 id iridium
@@ -220,7 +229,6 @@ id lithium
 id lutetium
 id magnesium
 id manganese
-id massFraction
 id massFractionValue
 id meitnerium
 id mendelevium
@@ -286,12 +294,15 @@ id toPeriodicTable3
 id toPeriodicTable4
 id toPeriodicTableButton
 id um_concentration
+id um_concentrationX
 id um_density
 id um_flaskVolume
 id um_flaskVolumeValue
 id um_mass_fraction
+id um_volumeX
 id uranium
 id vanadium
+id volumeX
 id wolframium
 id xenon
 id ytterbium
@@ -331,6 +342,7 @@ string bromum
 string cadmium
 string caesium
 string calcium
+string calculate
 string californium
 string carbon
 string cerium
@@ -340,6 +352,7 @@ string chromium
 string clear
 string cobalt
 string concentration
+string concentrationX
 string copper
 string curium
 string darmshtatium
@@ -358,6 +371,8 @@ string fermium
 string ferrum
 string flaskVolume
 string fluorum
+string formula_dilution
+string formula_preparationMol
 string francium
 string gadolinium
 string gallium
@@ -465,6 +480,7 @@ string u_m
 string uranium
 string vanadium
 string volume_mass
+string volume_x
 string wolframium
 string xenon
 string ytterbium
@@ -472,6 +488,8 @@ string yttrium
 string zinc
 string zirconium
 style Base.Theme.ChemistryAssistant
+style SpinnerTheme
+style SpinnerTheme2
 style Theme.ChemistryAssistant
 xml backup_rules
 xml data_extraction_rules
