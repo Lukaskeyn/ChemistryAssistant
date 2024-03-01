@@ -2471,6 +2471,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable blueflask
 drawable bluelight
 drawable borderactinoids
 drawable borderalkali
@@ -2478,6 +2479,7 @@ drawable borderalkalineearthmetals
 drawable borderbackbutton
 drawable bordercalculatebutton
 drawable borderchembutton
+drawable borderedittexterror
 drawable borderelement
 drawable borderelementhydrogen
 drawable bordergroup
@@ -2509,6 +2511,7 @@ drawable extralight
 drawable extralight2
 drawable functionborder
 drawable glyphosate
+drawable greenflask
 drawable greenlight
 drawable ic_clock_black_24dp
 drawable ic_down
@@ -2569,6 +2572,7 @@ drawable purple
 drawable ring
 drawable roundflask
 drawable stylespinner
+drawable stylespinnererror
 drawable test_custom_background
 drawable test_level_drawable
 drawable textviewborder

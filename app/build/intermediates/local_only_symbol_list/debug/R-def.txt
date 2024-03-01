@@ -41,6 +41,7 @@ color white
 color yellow
 color yellow_extraLight
 color yellow_periodic_table
+drawable blueflask
 drawable bluelight
 drawable borderactinoids
 drawable borderalkali
@@ -48,6 +49,7 @@ drawable borderalkalineearthmetals
 drawable borderbackbutton
 drawable bordercalculatebutton
 drawable borderchembutton
+drawable borderedittexterror
 drawable borderelement
 drawable borderelementhydrogen
 drawable bordergroup
@@ -66,6 +68,7 @@ drawable extralight
 drawable extralight2
 drawable functionborder
 drawable glyphosate
+drawable greenflask
 drawable greenlight
 drawable ic_down
 drawable ic_launcher_background
@@ -76,6 +79,7 @@ drawable purple
 drawable ring
 drawable roundflask
 drawable stylespinner
+drawable stylespinnererror
 drawable textviewborder
 font amita
 font basic

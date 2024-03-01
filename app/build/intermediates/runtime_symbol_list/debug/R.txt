@@ -2470,6 +2470,7 @@ int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
+int drawable blueflask 0x7f0800c1
 int drawable bluelight 0x7f080058
 int drawable borderactinoids 0x7f080059
 int drawable borderalkali 0x7f08005a
@@ -2477,6 +2478,7 @@ int drawable borderalkalineearthmetals 0x7f08005b
 int drawable borderbackbutton 0x7f08005c
 int drawable bordercalculatebutton 0x7f08005d
 int drawable borderchembutton 0x7f08005e
+int drawable borderedittexterror 0x7f0800bf
 int drawable borderelement 0x7f08005f
 int drawable borderelementhydrogen 0x7f080060
 int drawable bordergroup 0x7f080061
@@ -2508,6 +2510,7 @@ int drawable extralight 0x7f080079
 int drawable extralight2 0x7f08007a
 int drawable functionborder 0x7f08007b
 int drawable glyphosate 0x7f08007c
+int drawable greenflask 0x7f0800c2
 int drawable greenlight 0x7f08007d
 int drawable ic_clock_black_24dp 0x7f08007e
 int drawable ic_down 0x7f08007f
@@ -2568,6 +2571,7 @@ int drawable purple 0x7f0800b5
 int drawable ring 0x7f0800b6
 int drawable roundflask 0x7f0800b7
 int drawable stylespinner 0x7f0800b8
+int drawable stylespinnererror 0x7f0800c0
 int drawable test_custom_background 0x7f0800b9
 int drawable test_level_drawable 0x7f0800ba
 int drawable textviewborder 0x7f0800bb

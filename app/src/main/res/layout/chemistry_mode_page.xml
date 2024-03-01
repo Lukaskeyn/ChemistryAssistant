@@ -10,32 +10,35 @@
         android:id="@+id/um_volumeX"
         android:layout_width="100dp"
         android:layout_height="25dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/stylespinner"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/volumeX"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/volumeX" />
 
     <Spinner
         android:id="@+id/um_concentrationX"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/stylespinner"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/concentrationValueX"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/concentrationValueX" />
 
     <EditText
         android:id="@+id/concentrationValueX"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/editextborder"
         android:ems="10"
@@ -43,9 +46,10 @@
         android:gravity="center"
         android:hint="@string/concentrationX"
         android:inputType="number|numberDecimal"
+        android:maxLength="9"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/um_volumeX"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/formulas" />
 
@@ -53,29 +57,32 @@
         android:id="@+id/um_concentration"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/stylespinner"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/concentrationValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/concentrationValue" />
 
     <EditText
         android:id="@+id/concentrationValue"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/editextborder"
         android:fontFamily="@font/basic"
         android:gravity="center"
         android:hint="@string/concentration"
         android:inputType="number|numberDecimal"
+        android:maxLength="9"
         android:textColorHint="#5C5B5B"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/function"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/um_flaskVolumeValue" />
 
@@ -84,6 +91,7 @@
         style="@style/SpinnerTheme2"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/bordervolumeflask"
         android:gravity="center"
@@ -91,7 +99,7 @@
         android:textAlignment="center"
         android:theme="@style/SpinnerTheme"
         app:layout_constraintBottom_toTopOf="@+id/um_concentration"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -99,13 +107,14 @@
         android:id="@+id/um_flaskVolume"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:background="@drawable/stylespinner"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/editextborder"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/um_flaskVolumeValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/um_flaskVolumeValue" />
 
     <Spinner
@@ -113,19 +122,21 @@
         android:layout_width="100dp"
         android:layout_height="30dp"
 
-        android:background="@drawable/stylespinner"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/editextborder"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/massFractionValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/massFractionValue" />
 
     <EditText
         android:id="@+id/massFractionValue"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/editextborder"
         android:ems="10"
@@ -133,11 +144,12 @@
         android:gravity="center"
         android:hint="@string/volume_mass"
         android:inputType="number|numberDecimal"
+        android:maxLength="7"
         android:textAlignment="center"
         android:textColorHint="#5C5B5B"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/formulas"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/densityValue" />
 
@@ -145,19 +157,21 @@
         android:id="@+id/um_density"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
         android:background="@drawable/stylespinner"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/densityValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/densityValue" />
 
     <EditText
         android:id="@+id/molecularWeightValue"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/editextborder"
         android:ems="10"
@@ -165,11 +179,12 @@
         android:gravity="center"
         android:hint="M"
         android:inputType="number|numberDecimal"
+        android:maxLength="9"
         android:textAlignment="center"
         android:textColorHint="#5C5B5B"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/um_density"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/function" />
 
@@ -177,29 +192,32 @@
         android:id="@+id/em_mWeight"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:background="@drawable/stylespinner"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/editextborder"
         android:gravity="center"
         android:spinnerMode="dialog"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/molecularWeightValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/function"
+        app:layout_constraintStart_toStartOf="@+id/formulas"
         app:layout_constraintTop_toTopOf="@+id/molecularWeightValue" />
 
     <EditText
         android:id="@+id/densityValue"
         android:layout_width="120dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
         android:background="@drawable/editextborder"
         android:fontFamily="@font/basic"
         android:gravity="center"
         android:hint="@string/density"
         android:inputType="number|numberDecimal"
+        android:maxLength="9"
         android:textAlignment="center"
         android:textColorHint="#5C5B5B"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/um_mass_fraction"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/molecularWeightValue" />
 
@@ -258,7 +276,7 @@
 
     <Spinner
         android:id="@+id/function"
-        android:layout_width="150dp"
+        android:layout_width="220dp"
         android:layout_height="30dp"
         android:background="@drawable/functionborder"
         android:gravity="center"
@@ -274,6 +292,7 @@
         android:id="@+id/volumeX"
         android:layout_width="120dp"
         android:layout_height="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/editextborder"
         android:fontFamily="@font/basic"
@@ -281,7 +300,7 @@
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/backOnStartPage"
-        app:layout_constraintEnd_toEndOf="@+id/function"
+        app:layout_constraintEnd_toEndOf="@+id/formulas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/concentrationValueX" />
 

@@ -20,7 +20,7 @@
     </string-array>
     <string-array name="function">
         <item>Dilution</item>
-        <item>Preparation of c (mol/l)</item>
+        <item>Preparation: c (mol/l)</item>
     </string-array>
     <string-array name="mWeight">
         <item>g/mol</item>
@@ -141,7 +141,7 @@
     <string name="flaskVolume">Vf</string>
     <string name="fluorum">F</string>
     <string name="formula_dilution">Vx = (Cx*Vf)/c</string>
-    <string name="formula_preparationMol">Vx = (c * M)/ (p *(w/100))</string>
+    <string name="formula_preparationMol">Vx = (Cx * M)/ (p *(w/100))</string>
     <string name="francium">Fr</string>
     <string name="gadolinium">Gd</string>
     <string name="gallium">Ga</string>
